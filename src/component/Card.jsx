@@ -1,4 +1,4 @@
-import pecelAyam from "./../assets/pecelAyam.png";
+import pecelAyam from "./../assets/pecelAyam.webp";
 import { Link } from "react-router-dom";
 import { MdOutlineStar } from "react-icons/md";
 

@@ -1,6 +1,6 @@
 import "../font.css";
-import avatar from "../assets/avatar.jpg";
-import pecelAyam from "../assets/pecelAyam.png";
+import avatar from "../assets/avatar.webp";
+import pecelAyam from "../assets/pecelAyam.webp";
 import { MdOutlineStar } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
 
