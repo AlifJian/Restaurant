@@ -1,4 +1,5 @@
 import React from "react"
+import homeBackground from "./assets/backgroundHome.png"
 import Hero from "./component/Hero"
 import Header from "./component/Header"
 import { Helmet } from "react-helmet"
@@ -13,7 +14,7 @@ function App() {
       <style>
         {`
           body {
-            background :  url("./public/backgroundHome.png") no-repeat center bottom;
+            background :  url("${homeBackground}") no-repeat center bottom;
             background-size : contain;
             height : 100vh;
             overflow : hidden;       
