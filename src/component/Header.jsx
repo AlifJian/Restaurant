@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Header({ selected }) {
   return (
-    <header className="p-4 w-full">
+    <header className="p-4 w-full shadow-md sticky top-0 backdrop-blur bg-white opacity-75">
       <nav className="flex justify-between w-full">
         <div>
           <ul className="flex justify-between items-center gap-8">
@@ -45,12 +45,14 @@ function Header({ selected }) {
           <button className="rounded-full border border-slate-200 p-2">
             <MdOutlineSearch className="lg:text-2xl" />
           </button>
+          <Link to="/cart">
           <button className="rounded-full border border-slate-200 p-2 bg-amber-600 relative">
             <MdOutlineShoppingBag className="lg:text-2xl text-white" />
             <span className="absolute top-0 right-0 size-3 bg-black text-white text-[8px] rounded-full">
               1
             </span>
           </button>
+          </Link>
         </div>
       </nav>
     </header>

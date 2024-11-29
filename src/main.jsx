@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./style.css";
 import App from "./App.jsx";
 import Menu from "./Menu.jsx";
+import Cart from "./Cart.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -11,6 +12,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/">
         <Route index element={<App />} />
         <Route path="menu" element={<Menu />} />
+        <Route path="cart" element={<Cart />} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Route>
     </Routes>

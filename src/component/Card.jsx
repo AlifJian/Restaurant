@@ -5,7 +5,7 @@ import { MdOutlineStar } from "react-icons/md";
 function Card(){
     return(
         <Link>
-              <div className="group">
+              <div className="group shadow-md 0 p-2 rounded-md">
                 <img
                   src={pecelAyam}
                   alt="Pecel Ayam"
