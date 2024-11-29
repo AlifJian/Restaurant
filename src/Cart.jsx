@@ -1,6 +1,6 @@
 import CartCard from "./component/CartCard";
-import Footer from "./component/Footer";
 import Header from "./component/Header";
+import Footer from "./component/Footer";
 
 function Cart() {
   return (
