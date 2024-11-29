@@ -1,4 +1,4 @@
-import "../font.css";
+
 import avatar from "../assets/avatar.webp";
 import pecelAyam from "../assets/pecelAyam.webp";
 import { MdOutlineStar } from "react-icons/md";
