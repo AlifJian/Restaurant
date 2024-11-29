@@ -1,7 +1,7 @@
 import Card from "./component/Card";
 import Header from "./component/Header";
 import { Helmet } from "react-helmet";
-import Footer from "./component/footer";
+import Footer from "./component/Footer";
 
 function Menu() {
   return (

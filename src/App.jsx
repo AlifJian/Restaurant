@@ -3,7 +3,7 @@ import homeBackground from "./assets/backgroundHome.webp"
 import Hero from "./component/Hero"
 import Header from "./component/Header"
 import { Helmet } from "react-helmet"
-import Footer from "./component/footer"
+import Footer from "./component/Footer"
 
 
 function App() {

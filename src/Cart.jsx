@@ -1,5 +1,5 @@
 import CartCard from "./component/CartCard";
-import Footer from "./component/footer";
+import Footer from "./component/Footer";
 import Header from "./component/Header";
 
 function Cart() {
