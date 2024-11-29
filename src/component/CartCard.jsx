@@ -1,4 +1,4 @@
-import PecelAyam from "./../assets/PecelAyam.webp";
+import PecelAyam from "./../assets/pecelAyam.webp";
 
 function CartCard({terpilih}) {
   return (
