@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet";
 import PecelAyam from "./../assets/pecelAyam.webp";
 
 function CartCard({terpilih}) {
   return (
     <>
+    <Helmet>
+      <title>Restaurant | Cart</title>
+    </Helmet>
       <div className="w-full min-h-8 shadow-md p-4 roboto">
         <div>
           <p>Pecel Ayam {terpilih}</p>
