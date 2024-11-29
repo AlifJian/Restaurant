@@ -13,7 +13,7 @@ function CartCard({terpilih}) {
           <hr />
         </div>
         <div className="flex justify-between items-center">
-          <img src={PecelAyam} alt="" className="h-60 aspect-square" />
+          <img src={PecelAyam} alt="" className="h-60" />
           <input
             type="checkbox"
             name=""
