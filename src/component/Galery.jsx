@@ -1,26 +1,28 @@
+import pecelAyam from "../assets/pecelAyam.webp"
+
 function Galery() {
   return (
     <>
       <div className="w-2/5 p-4 float-start">
         <div className="grid grid-cols-2 mt-4">
           <img
-            src="/public/pecelAyam.webp"
+            src={pecelAyam}
             alt="Pecel Ayam"
             className="h-30 border border-slate-300 shadow-inner rounded-md"
           />
           <img
-            src="/public/pecelAyam.webp"
+            src={pecelAyam}
             alt="Pecel Ayam"
             className="h-30 border border-slate-300 shadow-inner rounded-md"
           />
           <img
-            src="/public/pecelAyam.webp"
+            src={pecelAyam}
             alt="Pecel Ayam"
             className="h-30 border border-slate-300 shadow-inner rounded-md"
           />
           <div className="relative">
             <img
-              src="/public/pecelAyam.webp"
+              src={pecelAyam}
               alt="Pecel Ayam"
               className="h-30 border border-slate-300 shadow-inner rounded-md"
             />

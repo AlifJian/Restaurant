@@ -6,6 +6,11 @@ import { Helmet } from "react-helmet";
 
 import {formatNumber} from "./utils"
 
+
+// Images
+import pecelAyam from "./assets/pecelAyam.webp"
+import bebek from "./assets/bebek.webp"
+
 function Cart() {
   const [total, setTotal] = useState(0);
   const [selected, setSelected] = useState(0)
@@ -23,8 +28,8 @@ function Cart() {
       </Helmet>
       <Header />
       <div className="min-h-screen flex flex-col rounded-md mt-4 gap-y-10 lg:p-16 p-8 roboto">
-        <CartCard total={updateTotal} harga={85000} title="Pecel Ayam" imgSrc="/public/pecelAyam.webp"/>
-        <CartCard total={updateTotal} harga={100000} title="Bebek Panggang" imgSrc="/public/bebek.webp"/>
+        <CartCard total={updateTotal} harga={85000} title="Pecel Ayam" imgSrc={pecelAyam} />
+        <CartCard total={updateTotal} harga={100000} title="Bebek Panggang" imgSrc={bebek} />
       </div>
       <div className="fixed bottom-0 px-16 w-full z-10">
         <div className="shadow-md mb-8 p-4 border border-gray-200 bg-white">
