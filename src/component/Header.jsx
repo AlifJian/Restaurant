@@ -49,7 +49,7 @@ function Header({ selected }) {
           <button className="rounded-full border border-slate-200 p-2 bg-amber-600 relative">
             <MdOutlineShoppingBag className="lg:text-2xl text-white" />
             <span className="absolute top-0 right-0 size-3 bg-black text-white text-[8px] rounded-full">
-              1
+              2
             </span>
           </button>
           </Link>
