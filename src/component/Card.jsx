@@ -3,6 +3,8 @@ import { MdOutlineStar } from "react-icons/md";
 import { formatNumber } from "../utils";
 
 function Card({ imgSrc, title, harga, rating }) {
+
+
   return (
     <Link to="/detail">
       <div className="group shadow-md 0 p-2 rounded-md">

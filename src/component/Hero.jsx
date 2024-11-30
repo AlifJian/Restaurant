@@ -1,6 +1,3 @@
-
-import avatar from "../assets/avatar.webp";
-import pecelAyam from "../assets/pecelAyam.webp";
 import { MdOutlineStar } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
 
@@ -28,7 +25,7 @@ function Hero() {
               aesthetic
             </p>
             <div className="mt-8 flex gap-x-4 items-center">
-              <img src={avatar} alt="" className="size-14 rounded-full" />
+              <img src="public/avatar.webp" alt="" className="size-14 rounded-full" />
               <div className="flex-col font-bold">
                 <h4>Rahan Sukamaju</h4>
                 <ul className="grid grid-flow-col gap-x-2">
@@ -62,7 +59,7 @@ function Hero() {
               </div>
             </div>
             <img
-              src={pecelAyam}
+              src="public/pecelAyam.webp"
               alt="Pecel ayam"
               width={`400px`}
               height={`400px`}

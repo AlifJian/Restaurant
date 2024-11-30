@@ -10,7 +10,7 @@ function Detail() {
   const [comment, setComment] = useState("");
   const [elements, setElements] = useState([])
   const addComment = () => {
-    setElements([...elements, <Comment nama="Pak Lele" imgSrc="/src/assets/lele.jpg" deskripsi={comment} />])
+    setElements([...elements, <Comment nama="Pak Lele" imgSrc="/public/lele.jpg" deskripsi={comment} />])
     setComment("");
   };
   const updateComment = (e) => {
@@ -61,7 +61,7 @@ function Detail() {
             <div className="max-h-[400px] min-h-[400px] overflow-auto relative">
               <Comment
                 nama="Pak Lele"
-                imgSrc="/src/assets/lele.jpg"
+                imgSrc="/public/lele.jpg"
                 deskripsi="Hidangan Pecel Ayam pada gambar ini tampak sangat menggugah
               selera, dengan ayam berbumbu kuning yang terlihat lembut dan kaya
               rempah khas Nusantara. Penyajian yang dilengkapi dengan sayuran
@@ -74,12 +74,12 @@ function Detail() {
               />
               <Comment
                 nama="Pria Kucing"
-                imgSrc="/src/assets/cat.jpg"
+                imgSrc="/public/cat.jpg"
                 deskripsi="Hidangan Pecel Ayam ini benar-benar menggoda selera! Dengan ayam berbumbu kuning yang terlihat juicy dan kaya akan rempah, ditambah pelengkap seperti sayuran segar dan sambal pedas, membuat hidangan ini semakin nikmat. Penyajian menggunakan tampah bambu memberikan kesan tradisional yang kuat dan autentik. Ini adalah representasi sempurna dari kelezatan kuliner khas Nusantara."
               />
               <Comment
                 nama="Pak Selamet"
-                imgSrc="/src/assets/cat2.jpg"
+                imgSrc="/public/cat2.jpg"
                 deskripsi="Gambar ini benar-benar memperlihatkan betapa lezatnya Pecel Ayam. Ayam berbumbu kuning yang terlihat empuk, dipadukan dengan sambal yang pedas dan segar, menciptakan harmoni rasa yang luar biasa. Sayuran segar seperti timun dan selada tidak hanya menambah warna, tetapi juga memberikan tekstur renyah. Hidangan ini bukan hanya tentang rasa, tetapi juga keindahan budaya kuliner Indonesia yang unik."
               />
               {elements}
@@ -87,7 +87,7 @@ function Detail() {
 
             <div className="flex gap-x-8 border-t border-slate-200 p-4 items-center">
               <img
-                src="/src/assets/lele.jpg"
+                src="/public/lele.jpg"
                 alt="Pak Lele"
                 className="size-16 rounded-full"
               />

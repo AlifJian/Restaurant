@@ -4,23 +4,23 @@ function Galery() {
       <div className="w-2/5 p-4 float-start">
         <div className="grid grid-cols-2 mt-4">
           <img
-            src="/src/assets/pecelAyam.webp"
+            src="/public/pecelAyam.webp"
             alt="Pecel Ayam"
             className="h-30 border border-slate-300 shadow-inner rounded-md"
           />
           <img
-            src="/src/assets/pecelAyam.webp"
+            src="/public/pecelAyam.webp"
             alt="Pecel Ayam"
             className="h-30 border border-slate-300 shadow-inner rounded-md"
           />
           <img
-            src="/src/assets/pecelAyam.webp"
+            src="/public/pecelAyam.webp"
             alt="Pecel Ayam"
             className="h-30 border border-slate-300 shadow-inner rounded-md"
           />
           <div className="relative">
             <img
-              src="/src/assets/pecelAyam.webp"
+              src="/public/pecelAyam.webp"
               alt="Pecel Ayam"
               className="h-30 border border-slate-300 shadow-inner rounded-md"
             />
