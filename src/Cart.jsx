@@ -1,6 +1,7 @@
 import CartCard from "./component/CartCard";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import { Helmet } from "react-helmet";
 
@@ -41,9 +42,11 @@ function Cart() {
               <p>Total</p>
               <p>Rp.{formatNumber(total)},00</p>
             </div>
+            <Link to="order">
             <button className="bg-amber-600 text-white rounded-md p-2">
               Order Now
             </button>
+            </Link>
           </div>
         </div>
       </div>

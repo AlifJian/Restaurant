@@ -7,6 +7,7 @@ import App from "./App.jsx";
 import Menu from "./Menu.jsx";
 import Cart from "./Cart.jsx";
 import Detail from "./Detail.jsx";
+import Order from "./Order.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")).render(
         <Route index element={<App />} />
         <Route path="menu" element={<Menu />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="/cart/order" element={<Order />} />
         <Route path="detail" element={<Detail />} />
         {/* <Route path="*" element={<NoPage />} /> */}
       </Route>

@@ -103,6 +103,7 @@ function Detail() {
                 className="w-full rounded-md border border-slate-200 p-2"
                 onChange={updateComment}
                 value={comment}
+                placeholder="Ketik di sini...."
               ></textarea>
               <MdOutlineSend className="text-2xl" onClick={addComment}/>
             </div>

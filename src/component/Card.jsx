@@ -1,10 +1,8 @@
 import { Link } from "react-router-dom";
-import { MdOutlineStar } from "react-icons/md";
+import { MdOutlineStar, MdAddBox } from "react-icons/md";
 import { formatNumber } from "../utils";
 
 function Card({ imgSrc, title, harga, rating }) {
-
-
   return (
     <Link to="/detail">
       <div className="group shadow-md 0 p-2 rounded-md">
@@ -21,10 +19,17 @@ function Card({ imgSrc, title, harga, rating }) {
             <p>{rating}</p>
           </div>
           <div>
-            <p className="mt-1 lg:text-lg text-base font-medium text-gray-900">
+            <p className="mt-1 lg:text-lg text-xs font-medium text-gray-900">
               Rp.{formatNumber(harga)},00
             </p>
           </div>
+        </div>
+        <div className="flex justify-center">
+          <Link to="/cart">
+            <button className="p-2 bg-amber-600 text-white rounded-md mt-4 flex justify-around items-center gap-x-4">
+              <p className="lg:block hidden">Masukkan Keranjang</p> <MdAddBox className="text-2xl"/>
+            </button>
+          </Link>
         </div>
       </div>
     </Link>

@@ -19,19 +19,19 @@ function CartCard({ total, harga, imgSrc, title }) {
         className={`w-full min-h-8 shadow-md p-4 robot ${style}`}
         onClick={checkInput}
       >
-        <div>
-          <p>{title}</p>
-          <hr />
-        </div>
         <div className="flex justify-between items-center">
-          <img src={imgSrc} alt={title} className="lg:h-60 h-32 aspect-auto" />
+          <p>{title}</p>
           <input
             type="checkbox"
             name=""
             id=""
             checked={check}
-            className="size-8 p-2 checked:bg-amber-600 text-amber-600 lg:block hidden"
+            className="lg:size-8 size-6 p-2 checked:bg-amber-600 text-amber-600"
           />
+        </div>
+          <hr />
+        <div className="flex justify-between items-center">
+          <img src={imgSrc} alt={title} className="lg:h-60 h-32 aspect-auto" />
         </div>
         <div>
           <p className="mt-1 lg:text-lg text-base font-medium text-gray-900">
