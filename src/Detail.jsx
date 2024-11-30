@@ -4,6 +4,7 @@ import Galery from "./component/Galery";
 import Comment from "./component/Comment";
 import Footer from "./component/Footer";
 import { useState } from "react";
+import Header from "./component/Header";
 
 function Detail() {
   const [comment, setComment] = useState("");
@@ -20,6 +21,7 @@ function Detail() {
       <Helmet>
         <title>Pecel Ayam | Detail</title>
       </Helmet>
+      <Header />
       <div className="flex justify-center items-center mt-16">
         <div className="container p-4 shadow-md">
           <div className="flex items-center justify-between">
