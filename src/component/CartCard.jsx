@@ -1,28 +1,30 @@
-import PecelAyam from "./../assets/pecelAyam.webp";
 import { useState } from "react";
 import { formatNumber } from "../utils";
 
-function CartCard({ total, harga }) {
+function CartCard({ total, harga, imgSrc, title }) {
   const [check, setCheck] = useState(false);
-  const [style, setStyle] = useState("")
+  const [style, setStyle] = useState("");
   function checkInput() {
     setCheck((prevCheck) => {
       const newCheck = !prevCheck;
       total(newCheck ? harga : -harga, newCheck ? 1 : -1);
-      setStyle(newCheck ? "bg-blue-300 opacity-70" : "")
+      setStyle(newCheck ? "bg-blue-300 opacity-70" : "");
       return newCheck;
     });
   }
 
   return (
     <>
-      <div className={`w-full min-h-8 shadow-md p-4 robot ${style}`} onClick={checkInput}>
+      <div
+        className={`w-full min-h-8 shadow-md p-4 robot ${style}`}
+        onClick={checkInput}
+      >
         <div>
-          <p>Pecel Ayam</p>
+          <p>{title}</p>
           <hr />
         </div>
         <div className="flex justify-between items-center">
-          <img src={PecelAyam} alt="" className="lg:h-60 h-30" />
+          <img src={imgSrc} alt={title} className="lg:h-60 h-32 aspect-auto" />
           <input
             type="checkbox"
             name=""
