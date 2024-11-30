@@ -27,7 +27,7 @@ function Card({ imgSrc, title, harga, rating }) {
         <div className="flex justify-center">
           <Link to="/cart">
             <button className="p-2 bg-amber-600 text-white rounded-md mt-4 flex justify-around items-center gap-x-4">
-              <p className="lg:block hidden">Masukkan Keranjang</p> <MdAddBox className="text-2xl"/>
+              <p className="lg:block hidden">Masukkan ke Keranjang</p> <MdAddBox className="text-2xl"/>
             </button>
           </Link>
         </div>

@@ -1,7 +1,7 @@
 import { MdOutlineStar } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
-import avatar from "../assets/avatar.webp"
-import pecelAyam from "../assets/pecelAyam.webp"
+import avatar from "../assets/avatar.webp";
+import pecelAyam from "../assets/pecelAyam.webp";
 function Hero() {
   return (
     <>
@@ -76,13 +76,28 @@ function Hero() {
         </div>
       </section>
       <section className="lg:hidden flex min-h-screen p-4 mt-8">
-        <div className="text-3xl hero">
-          <h1 className="mb-8">
+        <div className="text-2xl hero">
+          <h1 className="">
             Harga <span className="text-amber-600">Murah,</span> Masalah Rasa
           </h1>
           <h1>
             Nggk Ada <span className="text-amber-600">Lawan</span>
           </h1>
+          <div className="">
+            <span className="w-[32px] h-[16px] inline-block border-t-2 border-black"></span>
+            <p className="text-xs text-justify indent-16">
+              Resto Turoq adalah destinasi kuliner yang menghadirkan cita rasa
+              khas Indonesia dengan menu andalannya seperti pecal ayam, pecal
+              lele, dan bebek panggang. Mengusung konsep tradisional, Turoq
+              menyajikan pengalaman makan yang autentik dengan bumbu
+              rempah-rempah asli Nusantara. Setiap hidangan diolah dengan
+              bahan-bahan segar, dipadukan dengan sambal khas yang pedas dan
+              gurih, menciptakan harmoni rasa yang memanjakan lidah. Suasana
+              resto yang hangat dengan nuansa budaya lokal semakin menambah
+              kenikmatan bagi para pengunjung yang ingin menikmati masakan
+              tradisional.
+            </p>
+          </div>
         </div>
       </section>
     </>
