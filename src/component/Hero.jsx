@@ -4,6 +4,7 @@ import pecelAyam from "../assets/pecelAyam.webp";
 import { MdOutlineStar } from "react-icons/md";
 import { MdOutlineStarHalf } from "react-icons/md";
 
+
 function Hero() {
   return (
     <>
