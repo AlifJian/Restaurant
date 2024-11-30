@@ -4,13 +4,13 @@ import { formatNumber } from "../utils";
 
 function Card({ imgSrc, title, harga, rating }) {
   return (
-    <Link>
+    <Link to="/detail">
       <div className="group shadow-md 0 p-2 rounded-md">
         <img
           src={imgSrc}
           alt={title}
           className="aspect-square w-full rounded-lg bg-gray-200
-                object-cover group-hover:opacity-75"
+                object-cover group-hover:bg-amber-300 group-hover:opacity-75 transition-all ease-in"
         ></img>
         <h3 className="mt-4 lg:text-sm text-xs text-gray-700">{title}</h3>
         <div className="flex items-center justify-between ">
